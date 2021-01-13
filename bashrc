@@ -134,8 +134,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export SPACE=/space/td16954/
-
 alias q='rlwrap /home/thomas/q/l32/q'
 alias open='xdg-open'
 alias icecat='/usr/lib/icecat-31.4.0/icecat'
@@ -144,6 +142,3 @@ alias pbcopy='xclip -selection clipboard'
 alias julia='$SPACE/julia/julia'
 
 export PYTHONSTARTUP=~/.pystartup
-export PYTHONPATH=/home/pgrads/td16954/linux/Python/utils:/home/pgrads/td16954/linux/Python/packages:/home/pgrads/td16954/linux/.local/lib/python2.7/site-packages/tensorflow
-export JULIA_LOAD_PATH=/home/pgrads/td16954/linux/julia/utils
-export LD_LIBRARY_PATH=/home/pgrads/td16954/linux/
