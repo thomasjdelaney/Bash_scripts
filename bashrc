@@ -8,7 +8,7 @@ case $- in
       *) return;;
 esac
 
-source /usr/local/lib/bash.env
+# source /usr/local/lib/bash.env
 
 # You can modify the standard paths here eg.
 
@@ -27,7 +27,7 @@ then
 	return
 fi
 
-source /usr/local/lib/bash.int
+# source /usr/local/lib/bash.int
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
